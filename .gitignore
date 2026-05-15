@@ -1,0 +1,24 @@
+# Ignore Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+.venv/
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Ignore data and artifacts
+data/
+models/
+results/
+
+# Ignore VS Code workspace settings
+.vscode/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
